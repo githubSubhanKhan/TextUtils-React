@@ -76,7 +76,7 @@ function App() {
             {/* <Route exact path='/' element={ */}
               <TextForm
                 alertFunction={alertFunction}
-                heading="Text Analyzer"
+                heading="Enter Your Text Below"
                 theme={theme}
               />
             {/* } /> */}
