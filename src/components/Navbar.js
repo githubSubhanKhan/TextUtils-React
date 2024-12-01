@@ -24,14 +24,14 @@ export default function Navbar(props) {
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
               <button className="btn btn-outline-success" type="submit">Search</button>
             </form> */}
-          <div className="form-check form-check-inline" style={{color: props.theme === 'dark' || props.theme === 'red' || props.theme === 'green' ? 'white' : ''}}>
+          {/* <div className="form-check form-check-inline" style={{color: props.theme === 'dark' || props.theme === 'red' || props.theme === 'green' ? 'white' : ''}}>
             <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" onClick={props.redTheme}/>
               <label className="form-check-label" htmlFor="inlineRadio1">Enable Red Theme</label>
           </div>
           <div className="form-check form-check-inline" style={{color: props.theme === 'dark' || props.theme === 'red' || props.theme === 'green' ? 'white' : ''}}>
             <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" onClick={props.greenTheme}/>
               <label className="form-check-label" htmlFor="inlineRadio2">Enable Green Theme</label>
-          </div>
+          </div> */}
           <div className={`form-check form-switch text-${props.theme === 'light' ? 'dark' : 'light'}`}>
             <input className="form-check-input" onClick={props.toggleTheme} type="checkbox" role="switch" id="flexSwitchCheckDefault" />
             <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable {props.theme === 'light' ? 'dark' : 'light'} Theme</label>

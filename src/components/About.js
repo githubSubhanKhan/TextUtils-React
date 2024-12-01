@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 
 export default function About() {
-    const [colorStyle, setColorStyle] = useState({
-        color: 'black',
-        backgroundColor: 'white'
-    })
+    // const [colorStyle, setColorStyle] = useState({
+    //     color: 'black',
+    //     backgroundColor: 'white'
+    // })
 
     // const toggleStyle = ()=>{
     //     if(colorStyle.color === 'black'){
